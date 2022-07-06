@@ -1,0 +1,279 @@
+* {
+	/*font-family: "Times New Roman", Georgia, serif;
+	font-family: Verdana, Helvetica, sans-serif;*/
+	/*	font-family: Courier, "Courier New", monospace;*/
+
+	/*background-color: white;*/
+	/*color: grey;*/
+
+	font-family: 'amaranthBold', sans-serif;
+	src: url("fonts/amaranth-bold-webfont.eot");
+	src: url('fonts/amaranth-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/amaranth-bold-webfont.woff2') format('woff2'),
+		url('fonts/amaranth-bold-webfont.woff') format('woff'),
+		url('fonts/amaranth-bold-webfont.ttf') format('truetype'),
+		url('fonts/amaranth-bold-webfont.svg#amaranthregular') format('svg');
+
+}
+#about{
+	color: white;
+}
+
+.links{
+	background-color: grey;
+	height: 30px;
+	border-radius: 10px;
+	border-color: grey; ;
+}
+
+.nav a:link {
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+
+}
+
+
+.nav{
+	text-align: center;
+	word-spacing: 20px;
+}
+
+.homepage {
+
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 10px;
+
+}
+
+.profile {
+	height: 200px;
+	width: 200px;
+	margin-left: 560px;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	border-radius: 50%;
+}
+
+.contact-info {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	line-height: 12px;
+	font-weight: bold;
+	color: grey;
+}
+
+.social-link {
+
+	margin-left: 620px;
+	margin-top: 20px;
+}
+
+.social {
+	border-radius: 50%;
+
+}
+
+#body {
+	background-image: url("section-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(31, 31, 151, 1.0);
+}
+
+.about-me {
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 50px;
+	color: white;
+
+}
+
+span {
+	color: #00ff00;
+}
+
+.experience {
+	display: flex;
+	color: grey;
+
+}
+
+.experience0 {
+	text-align: center;
+	padding-top: 35px;
+
+
+}
+
+
+#experience {
+
+	background-color: grey;
+}
+
+
+.experience1 {
+	display: flex;
+	background: white;
+	border-radius: 20px;
+	margin: 20px;
+	margin-right: 5px;
+
+}
+
+.google-logo {
+	margin: 20px;
+
+}
+
+.google-experience {
+	margin: 20px;
+
+}
+
+.experience2 {
+	display: flex;
+	background-color: white;
+	border-radius: 20px;
+	margin: 20px;
+	margin-left: 5px;
+}
+
+.alabian-logo {
+	margin: 20px;
+
+}
+
+.alabian-experience {
+	margin: 20px;
+}
+
+.download {
+	color: white;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+a[target] {
+	margin: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #00ff00;
+	border: none;
+	padding: 15px 32px;
+	border-radius: 20px;
+	font-weight: 600;
+}
+
+#portfolio {
+	text-align: center;
+	color: grey;
+}
+
+.portfolio-img {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1500px;
+	margin: 0px;
+
+	/*	justify-content: center;*/
+
+}
+
+.img {
+	width: 500px;
+	/*height: 300px;*/
+	margin: 0px;
+}
+
+.portfolio {
+	margin-bottom: 150px;
+
+}
+
+
+
+#Contact {
+	text-align: center;
+	color: grey;
+	margin-bottom: 50px;
+}
+
+.Contact {
+	display: flex;
+}
+
+.google-map {
+	margin: 20px;
+}
+
+.form {
+	margin-left: 30px;
+}
+
+input[type="name"] {
+	width: 650px;
+	height: 30px;
+	border: 1px solid #00ff00;
+}
+
+input[type="email"] {
+	width: 650px;
+	height: 30px;
+	border: 1px solid #00ff00;
+}
+
+select {
+	width: 660px;
+	height: 30px;
+	border: 1px solid #00ff00;
+}
+
+input[type="submit"] {
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+	background-color: #00ff00;
+}
+
+textarea {
+	border: 1px solid #00ff00;
+}
+
+.table {
+	background-image: url("section-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#table {
+	color: black;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.footer {
+	/*margin-bottom: 40px;*/
+	table-layout: auto;
+	color: black;
+	border-collapse: collapse;
+	border: 2px solid white;
+	padding-bottom: 40Ppx;
+
+}
+
+table {
+	/*padding-bottom: 40px;*/
+	margin-left: 400px;
+	height: 300px;
+	font-weight: bold;
+}
